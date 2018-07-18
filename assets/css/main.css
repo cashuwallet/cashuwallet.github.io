@@ -543,6 +543,7 @@ img.logo{width:10rem;}
 #main-content .main-img .main-row{height:37rem;}
 #main-content .main-img .mobile-content{width:13rem;margin-top:1.5rem;}
 #main-content .info{margin-top:-2rem;}
+#main-content .info sup{font-size:20%;top:-3em;}
 
 @media only screen and (max-width:75rem) {
 
