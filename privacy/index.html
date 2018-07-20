@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<!--meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Cashu is a cryptocurrency wallet for smartphones. Be your own bank. Accept or spend crypto payments directly from your phone.">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Cashu - Mobile crypto wallet">
+        <meta property="og:description" content="A versatile and secure mobile cryptocurrency wallet.">
+        <meta property="og:image" content="assets/images/cashu.png">
+        <meta property="og:url" content="https://cashu.cc/">
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:title" content="Cashu Mobile Wallet">
+        <meta name="twitter:description" content="A versatile and secure mobile cryptocurrency wallet.">
+        <meta name="twitter:image" content="assets/images/cashu.png"-->
+
+        <link rel="stylesheet" href="../assets/css/main.css">
+        <!--link rel="canonical" href="https://www.cashu.cc/">
+        <link rel="alternate" title="Cashu" href="https://www.cashu.cc/">
+        <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
+        <link rel="apple-touch-icon-precomposed" href="assets/images/apple-icon-precomposed.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-icon-180x180.png" -->
+
+	<title>Private policy | Cashu</title>
+</head>
+<body>
+<div class="container" id="privacy">
+<div class="row middle-xs">
+<div class="col-xs-12">
+
+<h1>Privacy Policy</h1>
+
+<h2>Data Collected</h2>
+
+<p>
+The Cashu mobile app does not require you to provide any personal information and does not collect, use or disclose any personal information.
+We do not run any back-end servers and no sensitive information is transmitted to or stored in our end. 
+</p>
+
+<h2>Securing Your Private Keys</h2>
+
+<p>
+With the associated private key one can digitally sign transactions and send payments from a wallet.
+Therefore it is extremely important to safeguard private keys from unauthorized access.
+Cashu takes care of that by adopting secure procedures as explained below:
+</p>
+
+<p>
+We never store any private keys in your device.
+Private keys are computed temporarily, once for every payment sent, and immediately discarded. 
+We only store in the device the seed of a Hierarchical Deterministic (HD) wallet.
+A HD wallet is a formal mechanism to produce the whole set of private keys given a seed and a password.
+Without either the seed or the password it is practically impossible to access the wallet.
+The seed is stored in encrypted form within the device's key store and access to it requires unlocking the device.
+The password is known solely to the wallet owner and it is prompted by the app at two moments: to initialize the wallet or to send payments.
+</p>
+
+<p>
+It is extremely important that the seed is created from a true source of randomness and backed up safely offline.
+It is also extremely important that you pick a non-trivial password and memorize it.
+Do not lose the seed or forget the password, otherwise you will not be able to access your funds.
+It is technically possible to recover the seed from the device, as long as the wallet is opened, however it is impossible to recover the password.
+</p>
+
+<h2>Network Communication</h2>
+
+<p>
+Wallet balances and transaction history are obtained from public servers that interface the blockchain via HTTPS.
+Third parties running those servers are able to log your IP address and link that information to your wallet information.
+Do not assume wallet access to be 100% anonymous.
+</p>
+
+<h2>Permissions Required</h2>
+
+<p>
+CAMERA - The camera is used to scan QR Codes.
+</p>
+
+<p>
+INTERNET - The app communicates with various blockchain infrastructures to obtain public wallet details and broadcast transactions.
+</p>
+
+<p>
+ACCESS_NETWORK_STATE - The app tests whether or not the network is available prior to accessing it.
+</p>
+
+<p>
+VIBRATE - The vibrate feature is used for wallet status change notifications.
+</p>
+
+<h2>Policy Updates</h2>
+
+<p>
+We may need to update this privacy policy in the future. We will notify you of any changes through the app. We also advise you to review this page periodically.
+</p>
+
+</div>
+</div>
+</div>
+</body>
+</html>
