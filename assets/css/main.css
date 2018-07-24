@@ -533,7 +533,7 @@ img.logo{width:10rem;}
 	/*background-image:url(../images/background.png);*/
 	background-size:cover;background-position:center;}
 #main-content{padding:5rem 0 7rem 0;}
-#main-content .main-img{background-image:url(../images/phone.svg);
+#main-content .main-img{background-image:url(../images/phone-screenshot.svg);
 	background-position:center;background-size:contain;
 	background-repeat:no-repeat;height:37rem;position:relative;}
 #main-content .main-img .main-row{height:37rem;}
