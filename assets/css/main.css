@@ -526,7 +526,7 @@ img.logo{width:10rem;}
 }
 
 /* Main Style */
-#main{color:#ffffff;background-color:#ee572f;padding-bottom:3vw;min-height:100vh;
+#main{color:#ffffff;background-color:#ee572f;padding-bottom:3vw;/*min-height:100vh;*/
 	background:-webkit-linear-gradient(left, #ee572f, #f0c058);
 	background:-o-linear-gradient(left, #ee572f, #f0c058);
 	background:linear-gradient(to right, #ee572f, #f0c058);
