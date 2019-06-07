@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:cc="http://creativecommons.org/ns#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:svg="http://www.w3.org/2000/svg"
+	xmlns="http://www.w3.org/2000/svg"
+	viewBox="0 0 512 512"
+	height="512"
+	width="512">
+	<circle
+		style="fill:#0055ff"
+		cy="256"
+		cx="256"
+		r="256"/>
+	<path
+		style="fill:#ffffff"
+		d="M 123,256.00232 255.99768,123 389,255.99765 256.00232,389 Z"/>
+</svg>

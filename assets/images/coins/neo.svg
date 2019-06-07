@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:cc="http://creativecommons.org/ns#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:svg="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns="http://www.w3.org/2000/svg"
+	height="512"
+	width="512">
+	<defs>
+		<linearGradient
+			gradientUnits="userSpaceOnUse"
+			y2="-77.110001"
+			x2="838.96002"
+			y1="385.35999"
+			x1="17.85"
+			id="gradient1">
+			<stop
+				stop-color="#beeb00"
+				offset="0" />
+			<stop
+				stop-color="#58bf00"
+				offset="0.23" />
+			<stop
+				stop-color="#58bf00"
+				offset="0.42" />
+			<stop
+				stop-color="#29b800"
+				offset="0.61" />
+			<stop
+				stop-color="#00ae1d"
+				offset="0.78" />
+			<stop
+				stop-color="#00a62c"
+				offset="0.99" />
+		</linearGradient>
+		<linearGradient
+			xlink:href="#gradient1"
+			gradientTransform="matrix(0.94966225,0,0,0.94935207,88,55.999999)"
+			y2="-156.99001"
+			x2="793.96002"
+			y1="305.47"
+			x1="-27.15"
+			id="gradient2" />
+		<linearGradient
+			xlink:href="#gradient1"
+			gradientTransform="matrix(0.94966225,0,0,0.94935207,88,55.999999)"
+			y2="-247.77"
+			x2="742.84003"
+			y1="214.69"
+			x1="-78.269997"
+			id="gradient3" />
+	</defs>
+	<circle
+		r="256"
+		cy="256"
+		cx="256"
+		style="fill:#ffffff" />
+	<path
+		style="fill:url(#gradient1)"
+		d="M 424,125.0084 V 387.5802 L 285.82414,322.44515 V 174.62154 Z" />
+	<path
+		style="fill:url(#gradient2)"
+		d="M 88,392.42189 222.85204,456 V 194.65287 L 88,131.03679 Z" />
+	<path
+		style="fill:url(#gradient3)"
+		d="m 282.51932,58.287937 -189.182218,67.916643 133.000198,62.7237 56.18202,-20.17374 3.30482,-1.18669 132.63933,-47.6195 2.22221,-0.79745 1.22506,-0.42721 -133.00019,-62.723691 -1.22507,0.427208 -3.51375,1.262639 z" />
+</svg>
